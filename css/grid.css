@@ -32,10 +32,14 @@
   border: 1px solid lightgrey;
   margin-bottom: 1.5em;
   display: inline-block;
+  width: 80%;
 }
 /* Non-mobile, grid */
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 639px) {
   /* 3 columns, 3/12 in % */
+  .card {
+    width: 25%;
+  }
   .col-3 {
     min-width: 25%;
     float: left;
@@ -43,6 +47,9 @@
   .col-6 {
     min-width: 50%;
     float: left;
+  }
+  .col-12 {
+    min-width: 100%;
   }
 }
 @media (min-width: 780px) {
