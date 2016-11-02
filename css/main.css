@@ -7,3 +7,7 @@ header {
 header > h1 {
   text-transform: capitalize;
 }
+img {
+  min-width: 6.25%;
+  max-width: 100%;
+}
