@@ -34,9 +34,11 @@
   /* 3 columns, 3/12 in % */
   .col-3 {
     min-width: 25%;
+    float: left;
   }
   .col-6 {
     min-width: 50%;
+    float: left;
   }
 }
 @media (min-width: 780px) {
@@ -45,6 +47,7 @@
   /* 4 columns */
   .col-4 {
     min-width: 33.33%;
+    float: left;
   }
 
   /* 6 columns */
