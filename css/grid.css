@@ -28,7 +28,11 @@
 .col-3, .col-4, .col-6, .col-12 {
   width: 100%;
 }
-
+.card {
+  border: 1px solid lightgrey;
+  margin-bottom: 1.5em;
+  display: inline-block;
+}
 /* Non-mobile, grid */
 @media only screen and (min-width: 640px) {
   /* 3 columns, 3/12 in % */
