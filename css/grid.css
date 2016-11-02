@@ -38,8 +38,8 @@
   .col-6 {
     min-width: 50%;
   }
-
-@media(min-width: 780px){
+}
+@media (min-width: 780px) {
 
 
   /* 4 columns */
